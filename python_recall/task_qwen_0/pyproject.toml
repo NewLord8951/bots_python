@@ -1,0 +1,11 @@
+[project]
+name = "python_recall"
+version = "0.0.1"
+requires-python = ">=3.10"
+dependencies = ["typer", "rich"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.mypy]
+strict = true
